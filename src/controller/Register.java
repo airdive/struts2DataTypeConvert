@@ -51,11 +51,12 @@ public class Register extends ActionSupport {
 		System.out.println(username);
 		System.out.println(age + 1);
 		System.out.println(insertdate);
-		System.out.println(point.getX() + " " + point.getY());
+		System.out.println(point);
+//		System.out.println(point.getX() + " " + point.getY());
 
 		StrutsTypeConverter converter;
 
-		return null;
+		return "toPrintUsernameJSP";
 	}
 
 }
